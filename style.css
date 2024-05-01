@@ -109,12 +109,21 @@ html{
 }
 
 
-.sec-about-club{
-    margin: 0 auto;
-    width: 1283px;
+.sec-about-club-container{
     height: 782px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
     position: relative;
     bottom: 270px;
+    padding: 48px;
+}
+.sec-about-club{
+    /* margin: 0 auto; */
+    width: 1283px;
+    height: 782px;
     padding: 48px;
     display: flex;
     flex-direction: column;
@@ -1203,4 +1212,13 @@ html{
 }
 .footer-usefull_links a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width:1750px) {
+    .header{
+        min-width: 1752px;
+    }
+    .header-blackbox{
+        min-width: 1752px;
+    }
 }
